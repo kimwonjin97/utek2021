@@ -1,0 +1,19 @@
+{
+    "Nodes":
+    [{
+    "Name": "Yonge and Dundas",
+    "Accessible": false,
+    "Neighbours": ["College"]
+    },
+    {
+    "Name": "College",
+    "Accessible": true,
+    "Neighbours": ["Yonge and Dundas", "Queens"]
+    },
+    {
+    "Name": "Queens",
+    "Accessible": true,
+    "Neighbours": ["College"]
+    }]
+}
+    
